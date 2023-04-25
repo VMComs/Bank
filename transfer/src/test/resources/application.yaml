@@ -1,0 +1,5 @@
+services:
+  account:
+    url: http://localhost:8085
+  profile:
+    url: http://localhost:8089

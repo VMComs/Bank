@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: transfer-app
+  profiles:
+    active: local
+  jpa:
+    properties:
+      hibernate:
+        default_schema: transfer
+        show_sql: true
