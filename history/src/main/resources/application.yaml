@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: history-app
+  profiles:
+    active: local
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,history,metric
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    distribution:
+      percentiles-histogram:
+        "[http.server.requests]": true
