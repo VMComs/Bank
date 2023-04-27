@@ -1,6 +1,6 @@
 package com.bank.transfer.feign;
 
-import com.bank.transfer.pojos.Profile;
+import com.bank.transfer.pojo.Profile;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

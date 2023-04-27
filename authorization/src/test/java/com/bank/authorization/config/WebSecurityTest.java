@@ -4,7 +4,7 @@ import com.bank.authorization.dto.UserDTO;
 import com.bank.authorization.entity.Role;
 import com.bank.authorization.entity.RoleEnum;
 import com.bank.authorization.feign.ProfileFeignClient;
-import com.bank.authorization.pojos.Profile;
+import com.bank.authorization.pojo.Profile;
 import com.bank.authorization.service.UserDetailsServiceImpl;
 import com.bank.authorization.service.UserService;
 import com.bank.authorization.util.ErrBindingResult;

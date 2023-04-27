@@ -1,9 +1,9 @@
 package com.bank.authorization.service;
 
-import com.bank.authorization.controllers.UserRestController;
+import com.bank.authorization.controller.UserRestController;
 import com.bank.authorization.entity.User;
 import com.bank.authorization.mapper.UserMapper;
-import com.bank.authorization.pojos.Profile;
+import com.bank.authorization.pojo.Profile;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

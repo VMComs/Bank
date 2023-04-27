@@ -1,6 +1,6 @@
 package com.bank.transfer.feign;
 
-import com.bank.transfer.pojos.Account;
+import com.bank.transfer.pojo.Account;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.transaction.annotation.Transactional;

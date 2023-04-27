@@ -2,8 +2,8 @@ package com.bank.authorization.feign;
 
 import com.bank.authorization.config.SuccessUserHandler;
 import com.bank.authorization.config.WebSecurityConfig;
-import com.bank.authorization.controllers.UserRestController;
-import com.bank.authorization.pojos.Profile;
+import com.bank.authorization.controller.UserRestController;
+import com.bank.authorization.pojo.Profile;
 import com.bank.authorization.service.UserDetailsServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;

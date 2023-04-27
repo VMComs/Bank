@@ -1,10 +1,10 @@
 package com.bank.authorization.service;
 
-import com.bank.authorization.controllers.UserRestController;
+import com.bank.authorization.controller.UserRestController;
 import com.bank.authorization.dto.UserDTO;
 import com.bank.authorization.entity.Role;
 import com.bank.authorization.entity.RoleEnum;
-import com.bank.authorization.pojos.Profile;
+import com.bank.authorization.pojo.Profile;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
